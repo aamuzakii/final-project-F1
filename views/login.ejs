@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/head') %>
+</head>
+
+<body>
+  <%- include('partials/navbar') %>
+
+  <br><br>
+  <div class="col-sm-4 offset-sm-4">
+    <h1>Login</h1>
+    <section class="login" id="login">
+      <div class="container">
+        <div class="row"><br>
+          <div class="col-sm-12 col-sm-6">
+            <a class="btn btn-success me-3" href="#" role="button">Login</a>
+            <a class="btn btn-warning me-3" href="#" role="button">Register</a>
+          </div>
+        </div>
+      </div>
+    </section><br>
+
+    <form action="" method="POST">
+      <div class="mb-3">
+        <label for="text" class="form-label">Username</label>
+        <input type="text" name="username" class="form-control" id="text">
+      </div>
+      <div class="mb-3">
+        <label for="passwordHASH" class="form-label">Password</label>
+        <input type="password" name="password" class="form-control" id="passwordHASH">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
