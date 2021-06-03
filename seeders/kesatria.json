@@ -1,0 +1,29 @@
+[
+    {
+      "nama": "Jaya Cobuzier",
+      "usia": 26,
+      "tinggi": 160,
+      "berat": 52,
+      "pekerjaan": "Youtuber",
+      "ProfileId": 1,
+      "foto": "google.com"
+    },
+    {
+      "nama": "Paul Allan",
+      "usia": 30,
+      "tinggi": 173,
+      "berat": 60,
+      "pekerjaan": "Traveller",
+      "ProfileId": 2,
+      "foto": "google.com"
+    },
+    {
+      "nama": "Tatang Sutarna",
+      "usia": 23,
+      "tinggi": 160,
+      "berat": 63,
+      "pekerjaan": "Developer",
+      "ProfileId": 3,
+      "foto": "google.com"
+    }
+   ]
