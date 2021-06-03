@@ -15,13 +15,13 @@
       <div class="container">
         <div class="row"><br>
           <div class="col-sm-12 col-sm-6">
-            <a class="btn btn-success me-3" href="#" role="button">Login</a>
-            <a class="btn btn-warning me-3" href="#" role="button">Register</a>
+            <a class="btn btn-success me-3" href="/login" role="button">Login</a>
+            <a class="btn btn-warning me-3" href="/register" role="button">Register</a>
           </div>
         </div>
       </div>
     </section><br>
-
+    
     <form action="" method="POST">
       <div class="mb-3">
         <label for="text" class="form-label">Username</label>
@@ -33,6 +33,11 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+  </div>
+  <div>
+    <% if (validasi) { %>
+      <a class="btn btn-danger me-3 col-sm-4 offset-sm-4" role="button"><%= validasi %></a>
+    <% } %>
   </div>
 
 </body>
