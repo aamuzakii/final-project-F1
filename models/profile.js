@@ -61,5 +61,8 @@ module.exports = (sequelize, DataTypes) => {
   Profile.beforeCreate((instance) => {
     instance.password = bcrypt.hashSync(instance.password, salt);
   })
+  Profile.beforeFind((instance) => {
+    if (+instance.username+'' === 0) throw new Error (`apalah`)
+  })
   return Profile;
 };
