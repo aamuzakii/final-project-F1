@@ -14,7 +14,10 @@ class AuthController {
         password: password}
     })
     .then(instance => {
-      if (instance.length) res.send('benar')
+      if (instance.length) {
+        req.session.loginStatus = true
+        res.send('benar') 
+      }
       else  res.send('salah')})
     .catch(err => res.send(err))
 
