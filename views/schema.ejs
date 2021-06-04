@@ -6,16 +6,16 @@
 <body>
     <%- include('partials/navbar') %>
     
-    <h3> Proses Lamaran Anda </h3>
+    <h3> Lihat Semua Proses </h3>
 
     <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">No</th>
-            <th scope="col">Nama</th>
-            <th scope="col">Usia</th>
+            <th scope="col">Kesatria</th>
+            <th scope="col">Kembang</th>
             <th scope="col">Mahar</th>
-            <th scope="col">Action</th>
+            <th scope="col">Status</th>
           </tr>
         </thead>
         <tbody>
@@ -23,10 +23,8 @@
          <%   arr.forEach( el => { %>
                 <tr>
                   <th scope="row">1</th>
-                  <td><%= el.nama %></td>
-                  <td><%= el.usia %></td>
-                  <td><%= toRupiah(el.mahar)  %></td>
-                  <td><a href="">Akad</a> || <a href="/batalkan/<%= loggedUser %>/<%= el.id %>">Batalkan</a> </td>
+                  <td><%= el.id %></td>
+                  <td> Masih Proses </td>
                 </tr>
           <%  }) %>
 

@@ -12,6 +12,15 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       Kembang.belongsTo(models.Profile)
+      Kembang.belongsToMany(models.Kesatria, {through: "Jodohs"})
+    }
+
+    getUsia () {
+      return this.usia + ' ' + "tahun"
+    }
+
+    static sapa(param) {
+      return "Mrs." + ' ' + param
     }
   };
   Kembang.init({

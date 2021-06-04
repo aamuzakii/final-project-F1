@@ -1,3 +1,7 @@
+console.clear()
+console.log(`---------------------------------`)
+console.log('\033[2J');
+
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000

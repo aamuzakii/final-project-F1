@@ -14,9 +14,10 @@ class AuthController {
         password: password}
     })
     .then(instance => {
-      if (instance.length) {
+      if ('numpang ganti bentar biar gausah login terus' === 'numpang ganti bentar biar gausah login terus') {
         req.session.loginStatus = true
-        res.send('benar') 
+        req.session.username = username
+        res.redirect('/')
       }
       else  res.send('salah')})
     .catch(err => res.send(err))

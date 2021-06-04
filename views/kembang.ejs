@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+<div class="container-fluid" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+    <% let random = 1%>
+    <% arr.forEach( obj => { %>
+        <div class="card m-2 p-4" style="width: 18rem;">
+            <img class="card-img-top" src="https://picsum.photos/200/300?random=<%= random %>" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><%= Kembang.sapa(obj.nama) %></h5>
+              <p class="card-text"></p>
+              <p class="m-1">Usia: <%= obj.getUsia() %></p>
+              <p class="m-1">Tinggi: <%= obj.tinggi %></p>
+              <p class="m-1">Berat: <%= obj.berat %></p>
+              <p class="m-1">Mahar: <%= toRupiah(obj.mahar) %></p>
+              <a href="/lamar/<%= loggedUser %>/<%= obj.id %>" class="btn btn-primary">Lamar</a>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+    </body>
+    </html>
+    <!-- <% random ++ %> -->

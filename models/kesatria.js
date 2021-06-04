@@ -12,6 +12,8 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       Kesatria.belongsTo(models.Profile)
+      Kesatria.belongsToMany(models.Kembang, {through: "Jodohs"})
+
     }
   };
   Kesatria.init({
@@ -25,6 +27,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Kesatria',
+    // tableName: 'Kesatrias'
   });
   return Kesatria;
 };
+
