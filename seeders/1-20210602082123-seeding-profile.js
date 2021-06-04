@@ -1,10 +1,10 @@
 'use strict';
 
 let data = require('./profile.json')
-data.forEach( obj => {
-  obj.createdAt = new Date()
-  obj.updatedAt = new Date()
-})
+// data.forEach( obj => {
+//   obj.createdAt = new Date()
+//   obj.updatedAt = new Date()
+// })
 
 console.log(data)
 

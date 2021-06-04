@@ -1,22 +1,30 @@
 [
-    {
-      "username": "jcobuzier",
-      "password": "aman123",
-      "email": "jcobuzier@gmail.com"
-    },
-    {
-      "username": "paulallan",
-      "password": "australi098",
-      "email": "paulallan@hotmail.com"
-    },
-    {
-      "username": "tatangganteng",
-      "password": "ganteng765",
-      "email": "tatang-sutarna@gmail.com"
-    },
-    {
-      "username": "sellyavg",
-      "password": "point$$",
-      "email": "sellyandreawati@gmail.com"
-    }
-   ]
+	{
+		"username" : "corbuser",
+		"password" : "$2a$11$a\/g2yX0iLJuDbU8NozhzMeLegsv2pa31x9jolMX\/8a.J1aAwRIqq.",
+		"createdAt" : "2021-06-03T17:43:49.630Z",
+		"updatedAt" : "2021-06-03T17:43:49.630Z",
+		"email" : "vuteni@vomoto.com"
+	},
+	{
+		"username" : "jcobuzier",
+		"password" : "$2a$11$NYZZVWbu7nUAqnDk2XzU3OpppOBQxmjWGa0JaKnrH3gDXzRhluTde",
+		"createdAt" : "2021-06-03T18:34:48.745Z",
+		"updatedAt" : "2021-06-03T18:34:48.745Z",
+		"email" : "vuteni@vomoto.com"
+	},
+	{
+		"username" : "paulallan",
+		"password" : "$2a$11$NYZZVWbu7nUAqnDk2XzU3OrX\/hMxwL7SMq1gpPIFBIUwJAoW0b0xC",
+		"createdAt" : "2021-06-03T18:41:38.929Z",
+		"updatedAt" : "2021-06-03T18:41:38.929Z",
+		"email" : "vuteni@vomoto.com"
+	},
+	{
+		"username" : "dorami",
+		"password" : "$2a$11$NYZZVWbu7nUAqnDk2XzU3OYnjJKgrU29w3MMLw2IXYi8ZrC0ZjoES",
+		"createdAt" : "2021-06-03T18:44:22.036Z",
+		"updatedAt" : "2021-06-03T18:44:22.036Z",
+		"email" : "vuteni@vomoto.com"
+	}
+]
